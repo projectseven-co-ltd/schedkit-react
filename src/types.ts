@@ -50,6 +50,13 @@ export interface SchedKitEmbedProps {
 
   /** Base URL — default "https://schedkit.net" */
   baseUrl?: string;
+
+  /**
+   * Show SchedKit branding in the embedded page.
+   * Default: true (free). Set to false on paid plans to hide the footer.
+   * The server will ignore this flag unless the account has branding removal enabled.
+   */
+  branding?: boolean;
 }
 
 export interface SchedKitHandle {

@@ -19,6 +19,7 @@ function buildSrc(props: SchedKitEmbedProps): string {
   if (props.prefillName) url.searchParams.set('name', props.prefillName);
   if (props.prefillEmail) url.searchParams.set('email', props.prefillEmail);
   if (props.timezone) url.searchParams.set('tz', props.timezone);
+  if (props.branding === false) url.searchParams.set('nobranding', '1');
   return url.toString();
 }
 

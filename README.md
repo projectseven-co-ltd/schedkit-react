@@ -148,6 +148,7 @@ function MyComponent2() {
 | `className` | `string` | — | Class on the iframe/button (inline/popup) |
 | `style` | `CSSProperties` | — | Style on the iframe (inline) |
 | `baseUrl` | `string` | `"https://schedkit.net"` | Override base URL (self-hosted) |
+| `branding` | `boolean` | `true` | Show SchedKit footer. Set `false` on paid plans to hide it. |
 
 ### `SchedKitBookedData`
 
