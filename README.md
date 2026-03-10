@@ -148,7 +148,6 @@ function MyComponent2() {
 | `onBooked` | `(data: SchedKitBookedData) => void` | — | Fires when booking is confirmed |
 | `className` | `string` | — | Class on the iframe/button (inline/popup) |
 | `style` | `CSSProperties` | — | Style on the iframe (inline) |
-| `baseUrl` | `string` | `"https://schedkit.net"` | Override base URL (self-hosted) |
 | `branding` | `boolean` | `true` | Show SchedKit footer. Set `false` on paid plans to hide it. |
 
 ### `SchedKitBookedData`
@@ -184,17 +183,9 @@ Lightweight state hook for managing overlay visibility. Use when you want full c
 
 ---
 
-## Self-hosting
+## Get access
 
-Point the component at your own SchedKit instance with `baseUrl`:
-
-```tsx
-<SchedKitEmbed
-  user="jason"
-  event="30min"
-  baseUrl="https://cal.yourcompany.com"
-/>
-```
+SchedKit is currently in early access. [Request an account →](https://schedkit.net/#request)
 
 ---
 
