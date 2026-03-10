@@ -1,7 +1,8 @@
 # @schedkit/react
 
-[![npm version](https://img.shields.io/npm/v/@schedkit/react)](https://www.npmjs.com/package/@schedkit/react)
-[![license](https://img.shields.io/npm/l/@schedkit/react)](./LICENSE)
+[![npm version](https://img.shields.io/npm/v/@schedkit/react?color=dfff00&labelColor=0a0a0b)](https://www.npmjs.com/package/@schedkit/react)
+[![license](https://img.shields.io/badge/license-MIT-dfff00?labelColor=0a0a0b)](./LICENSE)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/@schedkit/react?color=dfff00&labelColor=0a0a0b)](https://bundlephobia.com/package/@schedkit/react)
 
 React embed components for [SchedKit](https://schedkit.net) booking pages. Drop a scheduling form into any React app in one line — inline, popup, or floating widget.
 
