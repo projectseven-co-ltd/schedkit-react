@@ -155,10 +155,12 @@ function MyComponent2() {
 ```ts
 interface SchedKitBookedData {
   uid: string;
-  start_time: string;        // ISO 8601
+  start_time: string;              // ISO 8601
   attendee_name: string;
   attendee_email: string;
   attendee_timezone: string;
+  status: 'confirmed' | 'pending'; // 'pending' when host confirmation is required
+  requires_confirmation: boolean;
 }
 ```
 
