@@ -7,6 +7,10 @@ export interface SchedKitBookedData {
   attendee_name: string;
   attendee_email: string;
   attendee_timezone: string;
+  /** "confirmed" for instant bookings; "pending" when host confirmation is required */
+  status: 'confirmed' | 'pending';
+  /** True if the event type requires host confirmation before the booking is finalized */
+  requires_confirmation: boolean;
 }
 
 export interface SchedKitEmbedProps {
